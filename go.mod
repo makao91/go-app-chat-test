@@ -1,0 +1,10 @@
+module hello
+
+go 1.18
+
+require (
+	github.com/go-redis/redis v6.15.9+incompatible
+	github.com/google/uuid v1.3.0 // indirect
+	github.com/joho/godotenv v1.4.0
+	github.com/maxence-charriere/go-app/v9 v9.4.1
+)
